@@ -2,7 +2,6 @@
   "name": "MeloNX PAL Source",
   "subtitle": "Private MeloNX + helper",
   "description": "Private AltStore PAL source hosting MeloNX 2.1 and its entitlement helper.",
-  "iconURL": "https://raw.githubusercontent.com/github/explore/main/topics/github/github.png",
   "tintColor": "#4185A9",
   "apps": [
     {
@@ -11,6 +10,7 @@
       "developerName": "Agrin",
       "subtitle": "Nintendo Switch emulator",
       "localizedDescription": "MeloNX 2.1 Switch emulator, installed from your private PAL source.",
+      "iconURL": "https://raw.githubusercontent.com/cy7gphygyv-coder/MeloNX-source/refs/heads/main/MeloNX.png",
       "versions": [
         {
           "version": "2.1",
@@ -28,6 +28,7 @@
       "developerName": "Agrin",
       "subtitle": "Helper app for entitlements",
       "localizedDescription": "Small helper app containing entitlements used together with MeloNX.",
+      "iconURL": "https://raw.githubusercontent.com/cy7gphygyv-coder/MeloNX-source/refs/heads/main/Entitlement.png",
       "versions": [
         {
           "version": "1.0",
