@@ -1,45 +1,31 @@
 {
-  "name": "MeloNX PAL Source",
-  "subtitle": "Private MeloNX + helper",
-  "description": "Private AltStore PAL source hosting MeloNX 2.1 and its entitlement helper.",
-  "iconURL": "https://raw.githubusercontent.com/cy7gphygyv-coder/MeloNX-source/refs/heads/main/MeloNX.png",
-  "tintColor": "#4185A9",
+  "name": "MeloNX + Entitlement (SideStore)",
+  "identifier": "com.cy7g.melonx.sidestore",
+  "sourceURL": "https://raw.githubusercontent.com/cy7gphygyv-coder/MeloNX-source/refs/heads/main/Source.json",
   "apps": [
     {
       "name": "MeloNX",
-      "bundleIdentifier": "com.agrin.melonx",
-      "developerName": "Agrin",
-      "subtitle": "Nintendo Switch emulator",
-      "localizedDescription": "MeloNX 2.1 Switch emulator, installed from your private PAL source.",
+      "bundleIdentifier": "com.getmoreram.melonx",
+      "developerName": "GetMoreRAM",
+      "subtitle": "Nintendo Switch Emulator",
+      "version": "1.0",
+      "versionDate": "2024-11-22",
+      "versionDescription": "MeloNX build for iOS, SideStore compatible.",
+      "downloadURL": "https://raw.githubusercontent.com/cy7gphygyv-coder/MeloNX-source/refs/heads/main/MeloNX.ipa",
       "iconURL": "https://raw.githubusercontent.com/cy7gphygyv-coder/MeloNX-source/refs/heads/main/MeloNX.png",
-      "versions": [
-        {
-          "version": "2.1",
-          "date": "2025-11-21T09:45:00+01:00",
-          "size": 57000000,
-          "downloadURL": "https://raw.githubusercontent.com/cy7gphygyv-coder/MeloNX-source/refs/heads/main/MeloNX.ipa",
-          "localizedDescription": "Current MeloNX 2.1 build sideloaded via PAL.",
-          "minOSVersion": "16.0"
-        }
-      ]
+      "size": 51200000
     },
     {
-      "name": "MeloNX Entitlement Helper",
-      "bundleIdentifier": "com.agrin.melonx.entitlement",
-      "developerName": "Agrin",
-      "subtitle": "Helper app for entitlements",
-      "localizedDescription": "Small helper app containing entitlements used together with MeloNX.",
+      "name": "Entitlement Injector",
+      "bundleIdentifier": "com.getmoreram.entitlement",
+      "developerName": "GetMoreRAM",
+      "subtitle": "JIT entitlement helper",
+      "version": "1.0",
+      "versionDate": "2024-11-22",
+      "versionDescription": "Helper app to enable JIT for emulators.",
+      "downloadURL": "https://raw.githubusercontent.com/cy7gphygyv-coder/MeloNX-source/refs/heads/main/Entitlement.ipa",
       "iconURL": "https://raw.githubusercontent.com/cy7gphygyv-coder/MeloNX-source/refs/heads/main/Entitlement.png",
-      "versions": [
-        {
-          "version": "1.0",
-          "date": "2025-11-21T09:45:00+01:00",
-          "size": 2600000,
-          "downloadURL": "https://raw.githubusercontent.com/cy7gphygyv-coder/MeloNX-source/refs/heads/main/Entitlement.ipa",
-          "localizedDescription": "Entitlement helper IPA for MeloNX.",
-          "minOSVersion": "16.0"
-        }
-      ]
+      "size": 5120000
     }
   ]
 }
