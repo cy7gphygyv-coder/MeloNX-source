@@ -2,6 +2,7 @@
   "name": "MeloNX PAL Source",
   "subtitle": "Private MeloNX + helper",
   "description": "Private AltStore PAL source hosting MeloNX 2.1 and its entitlement helper.",
+  "iconURL": "https://raw.githubusercontent.com/cy7gphygyv-coder/MeloNX-source/refs/heads/main/MeloNX.png",
   "tintColor": "#4185A9",
   "apps": [
     {
